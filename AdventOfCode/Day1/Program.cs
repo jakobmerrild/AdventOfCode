@@ -30,8 +30,8 @@ namespace Day1
                 if (sum < 0 && basement < 0)
                     basement = i + 1;
             }
-            Console.WriteLine(sum);
-            Console.WriteLine(basement);
+            Console.WriteLine(@"Final floor: {0}", sum);
+            Console.WriteLine(@"First time entering basement: {0}", basement);
             Console.ReadKey();
         }
     }
