@@ -11,7 +11,7 @@ namespace Day4
     {
         static void Main(string[] args)
         {
-            const string input = @"iwrupvqb";
+            const string input = @"bgvyzdsv";
             int suffix = 1;
             while (true)
             {
